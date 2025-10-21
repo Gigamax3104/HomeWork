@@ -56,6 +56,7 @@ int main() {
 
 void drawMainCaracterParam(const MainCharacter& mc) {
 	cout << "–¼‘O:" << mc.Object.name << endl;
+	cout << endl;
 	cout << "xÀ•W:" << mc.Object.TransformPositionX << endl;
 	cout << "yÀ•W:" << mc.Object.TransformPositionY << endl;
 	cout << "‰æ‘œID:" << mc.Object.ImageID << endl;
